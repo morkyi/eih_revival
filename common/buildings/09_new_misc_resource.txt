@@ -1,6 +1,6 @@
 ﻿building_gas_rig = {
 	building_group = bg_gas_extraction
-	texture = "gfx/interface/icons/building_icons/gas_rig.dds"
+	icon = "gfx/interface/icons/building_icons/gas_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -18,7 +18,7 @@
 
 building_lithium_mine = {
 	building_group = bg_lithium_extraction
-	texture = "gfx/interface/icons/building_icons/lithium_mine.dds"
+	icon = "gfx/interface/icons/building_icons/lithium_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -35,7 +35,7 @@ building_lithium_mine = {
 
 building_bauxite_mine = {
 	building_group = bg_bauxite_extraction
-	texture = "gfx/interface/icons/building_icons/bauxite_mine.dds"
+	icon = "gfx/interface/icons/building_icons/bauxite_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -52,7 +52,7 @@ building_bauxite_mine = {
 
 building_uranium_mine = {
 	building_group = bg_uranium_extraction
-	texture = "gfx/interface/icons/building_icons/uranium_mine.dds"
+	icon = "gfx/interface/icons/building_icons/uranium_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -69,7 +69,7 @@ building_uranium_mine = {
 
 building_battery_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/battery_factory.dds"
+	icon = "gfx/interface/icons/building_icons/battery_factory.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -86,7 +86,7 @@ building_battery_factory = {
 
 building_aluminium_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/aluminium_factory.dds"
+	icon = "gfx/interface/icons/building_icons/aluminium_factory.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -103,7 +103,7 @@ building_aluminium_factory = {
 
 building_circuit_board_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/circuit_board_factory.dds"
+	icon = "gfx/interface/icons/building_icons/circuit_board_factory.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -120,7 +120,7 @@ building_circuit_board_factory = {
 
 building_computer_factory = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/computer_factory.dds"
+	icon = "gfx/interface/icons/building_icons/computer_factory.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -137,7 +137,7 @@ building_computer_factory = {
 
 building_synthetic_rubber_refinery = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/synthetic_rubber_refinery.dds"
+	icon = "gfx/interface/icons/building_icons/synthetic_rubber_refinery.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -154,7 +154,7 @@ building_synthetic_rubber_refinery = {
 
 building_nuclear_powerplant = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/nuclear_powerplant.dds"
+	icon = "gfx/interface/icons/building_icons/nuclear_powerplant.dds"
 	city_type = city
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
