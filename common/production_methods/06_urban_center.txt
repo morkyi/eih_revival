@@ -465,7 +465,7 @@ pm_gas-fired_plant = {
 	building_modifiers = { 
 		workforce_scaled = {
 			goods_input_engines_add = 20
-			building_input_gas_add = 40
+			goods_input_gas_add = 40
 			goods_output_electricity_add = 240
 		}
 
