@@ -1,0 +1,133 @@
+﻿pmg_base_building_gas_rig = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gas_steam_derricks
+		pm_gas_combustion_derricks
+	}
+}
+
+pmg_transportation_building_gas_rig = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_gas_rig
+		pm_tanker_cars
+	}
+}
+
+pmg_ownership_capital_building_gas_rig = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_gas_rig
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_lithium_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_picks_and_shovels_building_lithium_mine
+		pm_atmospheric_engine_pump_building_lithium_mine
+		pm_condensing_engine_pump_building_lithium_mine
+		pm_diesel_pump_building_lithium_mine
+	}
+}
+
+pmg_base_building_bauxite_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_picks_and_shovels_building_bauxite_mine
+		pm_atmospheric_engine_pump_building_bauxite_mine
+		pm_condensing_engine_pump_building_bauxite_mine
+		pm_diesel_pump_building_bauxite_mine
+	}
+}
+
+pmg_base_building_uranium_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_picks_and_shovels_building_uranium_mine
+		pm_atmospheric_engine_pump_building_uranium_mine
+		pm_condensing_engine_pump_building_uranium_mine
+		pm_diesel_pump_building_uranium_mine
+	}
+}
+
+pmg_ownership_capital_building_lithium_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_battery_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_battery_factory
+		pm_electric_automation_building_battery_factory
+	}
+}
+
+pmg_ownership_capital_building_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_aluminium_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_aluminium_factory
+		pm_electric_automation_building_aluminium_factory
+	}
+}
+
+pmg_base_building_circuit_board_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_circuit_board_factory
+		pm_electric_automation_building_circuit_board_factory
+	}
+}
+
+pmg_base_building_computer_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_computer_factory
+		pm_electric_automation_building_computer_factory
+	}
+}
+
+pmg_base_building_synthetic_rubber_refinery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_synthetic_rubber_refinery
+		pm_electric_automation_building_synthetic_rubber_refinery
+	}
+}
+
+pmg_base_building_synthetic_nuclear_powerplant = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_production_building_nuclear_powerplant
+		pm_electric_automation_building_nuclear_powerplant
+	}
+}
+
+pmg_base_building_airport = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_civilian_biplanes
+		pm_civilian_turboprop_planes
+		pm_civilian_jet_planes
+	}
+}

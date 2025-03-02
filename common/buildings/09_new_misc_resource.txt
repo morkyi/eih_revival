@@ -1,0 +1,170 @@
+﻿building_gas_rig = {
+	building_group = bg_gas_extraction
+	texture = "gfx/interface/icons/building_icons/gas_rig.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		gas_pumpjacks
+	}
+	
+	production_method_groups = {
+		pmg_base_building_gas_rig
+		pmg_transportation_building_gas_rig
+		pmg_ownership_capital_building_gas_rig
+	}
+}
+
+building_lithium_mine = {
+	building_group = bg_lithium_extraction
+	texture = "gfx/interface/icons/building_icons/lithium_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		lithium_battery
+	}
+	
+	production_method_groups = {
+		pmg_base_building_lithium_mine
+		pmg_ownership_capital_building_lithium_mine
+	}
+}
+
+building_bauxite_mine = {
+	building_group = bg_bauxite_extraction
+	texture = "gfx/interface/icons/building_icons/bauxite_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		bauxite_mines
+	}
+	
+	production_method_groups = {
+		pmg_base_building_bauxite_mine
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_uranium_mine = {
+	building_group = bg_uranium_extraction
+	texture = "gfx/interface/icons/building_icons/uranium_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		uranium_mines
+	}
+	
+	production_method_groups = {
+		pmg_base_building_uranium_mine
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_battery_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/battery_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		lithium_battery
+	}
+	
+	production_method_groups = {
+		pmg_base_building_battery_factory
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_aluminium_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/aluminium_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		aluminium_factory
+	}
+	
+	production_method_groups = {
+		pmg_base_building_aluminium_factory
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_circuit_board_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/circuit_board_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		circuit_board_factory
+	}
+	
+	production_method_groups = {
+		pmg_base_building_circuit_board_factory
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_computer_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/computer_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		computer_factory
+	}
+	
+	production_method_groups = {
+		pmg_base_building_computer_factory
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_synthetic_rubber_refinery = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/synthetic_rubber_refinery.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		synthetic_rubber
+	}
+	
+	production_method_groups = {
+		pmg_base_building_synthetic_rubber_refinery
+		pmg_ownership_capital_building_factory
+	}
+}
+
+building_nuclear_powerplant = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/nuclear_powerplant.dds"
+	city_type = city
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+
+	unlocking_technologies = {
+		nuclear_powerplants
+	}
+	
+	production_method_groups = {
+		pmg_base_building_synthetic_nuclear_powerplant
+		pmg_ownership_capital_building_factory
+	}
+}

@@ -1,0 +1,122 @@
+﻿# goods types, organized by category
+
+# prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum.
+
+############
+# MILITARY #
+############
+
+#ammunition = {
+#	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+#	cost = 50
+#	category = military
+#	
+#	prestige_factor = 5
+#}
+
+
+##########
+# STAPLE #
+##########
+
+#grain = {
+#	texture = "gfx/interface/icons/goods_icons/grain.dds"
+#	cost = 20
+#	category = staple
+#	
+#	prestige_factor = 3
+#	
+#	traded_quantity = 10
+#	convoy_cost_multiplier = 0.25
+#	
+#	consumption_tax_cost = 500
+#}
+
+##############
+# INDUSTRIAL #
+##############
+
+gas = {
+	texture = "gfx/interface/icons/goods_icons/gas.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.25
+}
+
+
+lithium = {
+	texture = "gfx/interface/icons/goods_icons/lithium.dds"
+	cost = 90
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.15
+}
+
+battery = {
+	texture = "gfx/interface/icons/goods_icons/battery.dds"
+	cost = 120
+	category = industrial
+	
+	prestige_factor = 15
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.15
+}
+
+bauxite = {
+	texture = "gfx/interface/icons/goods_icons/bauxite.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.15
+}
+
+aluminium = {
+	texture = "gfx/interface/icons/goods_icons/aluminium.dds"
+	cost = 55
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.15
+}
+
+circuit_board = {
+	texture = "gfx/interface/icons/goods_icons/circuit_board.dds"
+	cost = 110
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.15
+}
+
+uranium = {
+	texture = "gfx/interface/icons/goods_icons/uranium.dds"
+	cost = 160
+	category = industrial
+	
+	prestige_factor = 20
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.85
+}
+
+##########
+# LUXURY #
+##########
+
+computer = {
+	texture = "gfx/interface/icons/goods_icons/computer.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 0.2
+	prestige_factor = 15
+	convoy_cost_multiplier = 0.75
+}

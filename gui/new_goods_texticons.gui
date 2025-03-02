@@ -1,0 +1,79 @@
+texticon = {
+	icon = uranium
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/uranium.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = circuit_board
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/circuit_board.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = aluminium
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/aluminium.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = bauxite
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/bauxite.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = battery
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/battery.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = computer
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/computer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = gas
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/gas.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = lithium
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/lithium.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
