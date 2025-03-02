@@ -1,5 +1,5 @@
 ﻿pm_gas_steam_derricks = {
-	icon = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
+	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -25,7 +25,7 @@
 }
 
 pm_gas_combustion_derricks = {
-	icon = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -54,7 +54,7 @@ pm_gas_combustion_derricks = {
 }
 
 pm_rail_transport_building_gas_rig = {
-	icon = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
 
 	state_modifiers = {
 		workforce_scaled = {
@@ -78,7 +78,7 @@ pm_rail_transport_building_gas_rig = {
 }
 
 pm_publicly_traded_building_gas_rig = {
-	icon = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 	
 	disallowing_laws = {
 		law_command_economy
@@ -100,7 +100,7 @@ pm_publicly_traded_building_gas_rig = {
 }
 
 pm_picks_and_shovels_building_lithium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -118,7 +118,7 @@ pm_picks_and_shovels_building_lithium_mine = {
 }
 
 pm_atmospheric_engine_pump_building_lithium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/pumps.dds"
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -146,7 +146,7 @@ pm_atmospheric_engine_pump_building_lithium_mine = {
 }
 
 pm_condensing_engine_pump_building_lithium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10		}
@@ -174,7 +174,7 @@ pm_condensing_engine_pump_building_lithium_mine = {
 }
 
 pm_diesel_pump_building_lithium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -203,7 +203,7 @@ pm_diesel_pump_building_lithium_mine = {
 }
 
 pm_picks_and_shovels_building_bauxite_mine = {
-	icon = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -221,7 +221,7 @@ pm_picks_and_shovels_building_bauxite_mine = {
 }
 
 pm_atmospheric_engine_pump_building_bauxite_mine = {
-	icon = "gfx/interface/icons/production_method_icons/pumps.dds"
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -249,7 +249,7 @@ pm_atmospheric_engine_pump_building_bauxite_mine = {
 }
 
 pm_condensing_engine_pump_building_bauxite_mine = {
-	icon = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10		}
@@ -277,7 +277,7 @@ pm_condensing_engine_pump_building_bauxite_mine = {
 }
 
 pm_diesel_pump_building_bauxite_mine = {
-	icon = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -306,7 +306,7 @@ pm_diesel_pump_building_bauxite_mine = {
 }
 
 pm_picks_and_shovels_building_uranium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -324,7 +324,7 @@ pm_picks_and_shovels_building_uranium_mine = {
 }
 
 pm_atmospheric_engine_pump_building_uranium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/pumps.dds"
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -352,7 +352,7 @@ pm_atmospheric_engine_pump_building_uranium_mine = {
 }
 
 pm_condensing_engine_pump_building_uranium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10		}
@@ -380,7 +380,7 @@ pm_condensing_engine_pump_building_uranium_mine = {
 }
 
 pm_diesel_pump_building_uranium_mine = {
-	icon = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -409,7 +409,7 @@ pm_diesel_pump_building_uranium_mine = {
 }
 
 pm_standard_production_building_battery_factory = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -435,7 +435,7 @@ pm_standard_production_building_battery_factory = {
 }
 
 pm_electric_automation_building_battery_factory = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -465,7 +465,7 @@ pm_electric_automation_building_battery_factory = {
 }
 
 pm_standard_production_building_aluminium_factory = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -491,7 +491,7 @@ pm_standard_production_building_aluminium_factory = {
 }
 
 pm_electric_automation_building_aluminium_factory = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -521,7 +521,7 @@ pm_electric_automation_building_aluminium_factory = {
 }
 
 pm_standard_production_building_circuit_board_factory = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -547,7 +547,7 @@ pm_standard_production_building_circuit_board_factory = {
 }
 
 pm_electric_automation_building_circuit_board_factory = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -577,7 +577,7 @@ pm_electric_automation_building_circuit_board_factory = {
 }
 
 pm_standard_production_building_computer_factory = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -604,7 +604,7 @@ pm_standard_production_building_computer_factory = {
 }
 
 pm_electric_automation_building_computer_factory = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -636,7 +636,7 @@ pm_electric_automation_building_computer_factory = {
 }
 
 pm_standard_production_building_synthetic_rubber_refinery = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
@@ -663,7 +663,7 @@ pm_standard_production_building_synthetic_rubber_refinery = {
 }
 
 pm_electric_automation_building_synthetic_rubber_refinery = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -694,7 +694,7 @@ pm_electric_automation_building_synthetic_rubber_refinery = {
 }
 
 pm_standard_production_building_nuclear_powerplant = {
-	icon = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	pollution_generation = 0
 	
 	building_modifiers = {
@@ -716,7 +716,7 @@ pm_standard_production_building_nuclear_powerplant = {
 }
 
 pm_electric_automation_building_nuclear_powerplant = {
-	icon = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	pollution_generation = 0
 
 	unlocking_technologies = {
@@ -743,7 +743,7 @@ pm_electric_automation_building_nuclear_powerplant = {
 }
 
 pm_civilian_biplanes = {
-	icon = "gfx/interface/icons/production_method_icons/biplanes.dds"
+	texture = "gfx/interface/icons/production_method_icons/biplanes.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -771,7 +771,7 @@ pm_civilian_biplanes = {
 }
 
 pm_civilian_turboprop_planes = {
-	icon = "gfx/interface/icons/production_method_icons/turboprop_planes.dds"
+	texture = "gfx/interface/icons/production_method_icons/turboprop_planes.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
@@ -799,7 +799,7 @@ pm_civilian_turboprop_planes = {
 }
 
 pm_civilian_jet_planes = {
-	icon = "gfx/interface/icons/production_method_icons/jet_planes.dds"
+	texture = "gfx/interface/icons/production_method_icons/jet_planes.dds"
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15		}
