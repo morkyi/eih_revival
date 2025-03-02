@@ -1705,7 +1705,7 @@ establishment_acceptation = {
 	category = society
 	
 	modifier = {
-		political_movement_radicalism_mult = -0.15
+		state_radicals_from_political_movements_mult = -0.15 # Was formerly political_movement_radicalism_mult. I think this is the proper replacement?
 	}
 	
 	unlocking_technologies = {
