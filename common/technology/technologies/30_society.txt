@@ -10,6 +10,7 @@ urbanization = {
 		state_infrastructure_from_population_add = 2
 		state_infrastructure_from_population_max_add = 40	
 		state_building_construction_sector_max_level_add = 10
+		country_max_weekly_construction_progress_add = 10
 		market_land_trade_capacity_add = 50
 	}
 	
@@ -27,6 +28,7 @@ urban_planning = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 5
 		market_land_trade_capacity_add = 10
 	}
 	
@@ -1584,7 +1586,7 @@ advanced_urbanization = {
 	category = society
 	
 	modifier = {
-		state_urbanization_mult = 0.15
+		state_urbanization_per_level_mult = 0.15
 	}
 	
 	unlocking_technologies = {	

@@ -10,7 +10,7 @@
 		workforce_scaled = {
 			# input goods
 			goods_input_engines_add = 5
-			building_input_coal_add = 10
+			goods_input_coal_add = 10
 			
 			# output goods
 			goods_output_gas_add = 60
@@ -589,10 +589,10 @@ pm_standard_production_building_computer_factory = {
 			# input goods
 			goods_input_aluminium_add = 40
 			goods_input_tools_add = 15
-			building_input_circuit_board_add = 45
+			goods_input_circuit_board_add = 45
 			
 			# output goods
-			building_output_computer_add = 10
+			goods_output_computer_add = 10
 		}
 
 		level_scaled = {
@@ -620,11 +620,11 @@ pm_electric_automation_building_computer_factory = {
 			goods_input_aluminium_add = 20
 			goods_input_tools_add = 15
 			goods_input_electricity_add = 10
-			building_input_circuit_board_add = 25
-			building_input_battery_add = 25
+			goods_input_circuit_board_add = 25
+			goods_input_battery_add = 25
 			
 			# output goods
-			building_output_computer_add = 35
+			goods_output_computer_add = 35
 		}
 
 		level_scaled = {
@@ -666,7 +666,8 @@ pm_electric_automation_building_synthetic_rubber_refinery = {
 	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 15		}
+			state_pollution_generation_add = 15
+		}
 	}
 
 	unlocking_technologies = {
@@ -695,7 +696,11 @@ pm_electric_automation_building_synthetic_rubber_refinery = {
 
 pm_standard_production_building_nuclear_powerplant = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
-	pollution_generation = 0
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 0
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -717,7 +722,11 @@ pm_standard_production_building_nuclear_powerplant = {
 
 pm_electric_automation_building_nuclear_powerplant = {
 	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
-	pollution_generation = 0
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 0
+		}
+	}
 
 	unlocking_technologies = {
 		aluminium_factory

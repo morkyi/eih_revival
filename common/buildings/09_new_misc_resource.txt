@@ -14,6 +14,10 @@
 		pmg_transportation_building_gas_rig
 		pmg_ownership_capital_building_gas_rig
 	}
+	ownership_type = self
+
+	## TODO customize
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_oil.dds"
 }
 
 building_lithium_mine = {
@@ -31,6 +35,9 @@ building_lithium_mine = {
 		pmg_base_building_lithium_mine
 		pmg_ownership_capital_building_lithium_mine
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 
 building_bauxite_mine = {
@@ -48,6 +55,9 @@ building_bauxite_mine = {
 		pmg_base_building_bauxite_mine
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 
 building_uranium_mine = {
@@ -65,6 +75,8 @@ building_uranium_mine = {
 		pmg_base_building_uranium_mine
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 
 building_battery_factory = {
@@ -82,6 +94,9 @@ building_battery_factory = {
 		pmg_base_building_battery_factory
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_aluminium_factory = {
@@ -99,6 +114,9 @@ building_aluminium_factory = {
 		pmg_base_building_aluminium_factory
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_circuit_board_factory = {
@@ -116,6 +134,8 @@ building_circuit_board_factory = {
 		pmg_base_building_circuit_board_factory
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type =
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_computer_factory = {
@@ -133,6 +153,9 @@ building_computer_factory = {
 		pmg_base_building_computer_factory
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_synthetic_rubber_refinery = {
@@ -150,6 +173,9 @@ building_synthetic_rubber_refinery = {
 		pmg_base_building_synthetic_rubber_refinery
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_oil.dds"
 }
 
 building_nuclear_powerplant = {
@@ -167,4 +193,7 @@ building_nuclear_powerplant = {
 		pmg_base_building_synthetic_nuclear_powerplant
 		pmg_ownership_capital_building_factory
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
