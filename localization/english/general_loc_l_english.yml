@@ -4,9 +4,9 @@
  lawgroup_internet_desc:0 "Government internet policies."
 
  law_no_internet:0 "No Internet"
- law_no_internet_desc:0 "Restricts access to external sources, prohibiting pops from using the internet or external help while they are engaged in their activities."
- law_state_internet:0 "State controlled Internet"
- law_state_internet_desc:0 "Establishes a gobernment internet system within the country, allowing pops to interact with social media, virtual websites, and engage in various online activities with gobernment control"
+ law_no_internet_desc:0 "Pops are prohibited from using the internet."
+ law_state_internet:0 "State Controlled Internet"
+ law_state_internet_desc:0 "Pops can use the internet, under state monitoring."
  law_free_internet:0 "Free Internet"
  law_free_internet_desc:0 "Pops enjoy unrestricted access to the internet, enabling them to explore virtual websites, participate in forums, and interact with other pops without any limitations or costs"
  
@@ -161,6 +161,7 @@
  modifier_building_output_uranium_add:0 "@uranium! Uranium output per level"
  modifier_building_output_uranium_add_desc:0 "The amount of @uranium! Uranium produced by buildings"
  uranium:0 "Uranium"
+ trade_route_export_lens_option_uranium_tooltip:0 "Export uranium this is a test text"
 
  uranium_mines:0 "Uranium Mines"
  uranium_mines_desc:0 "The 'Uranium Mines' technology signifies advancements in the mining and extraction processes of uranium, a key element used in nuclear energy production and certain military applications. This technology encompasses improved mining equipment, safety measures, and environmental precautions to optimize uranium production while minimizing human and environmental risks."

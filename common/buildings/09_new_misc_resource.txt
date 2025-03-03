@@ -33,7 +33,6 @@ building_lithium_mine = {
 	
 	production_method_groups = {
 		pmg_base_building_lithium_mine
-		pmg_ownership_capital_building_lithium_mine
 	}
 	ownership_type = self
 
@@ -53,7 +52,7 @@ building_bauxite_mine = {
 	
 	production_method_groups = {
 		pmg_base_building_bauxite_mine
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 
@@ -73,7 +72,7 @@ building_uranium_mine = {
 	
 	production_method_groups = {
 		pmg_base_building_uranium_mine
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -92,7 +91,6 @@ building_battery_factory = {
 	
 	production_method_groups = {
 		pmg_base_building_battery_factory
-		pmg_ownership_capital_building_factory
 	}
 	ownership_type = self
 
@@ -112,7 +110,7 @@ building_aluminium_factory = {
 	
 	production_method_groups = {
 		pmg_base_building_aluminium_factory
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 
@@ -132,7 +130,7 @@ building_circuit_board_factory = {
 	
 	production_method_groups = {
 		pmg_base_building_circuit_board_factory
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -151,7 +149,7 @@ building_computer_factory = {
 	
 	production_method_groups = {
 		pmg_base_building_computer_factory
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 
@@ -171,7 +169,7 @@ building_synthetic_rubber_refinery = {
 	
 	production_method_groups = {
 		pmg_base_building_synthetic_rubber_refinery
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 
@@ -191,7 +189,7 @@ building_nuclear_powerplant = {
 	
 	production_method_groups = {
 		pmg_base_building_synthetic_nuclear_powerplant
-		pmg_ownership_capital_building_factory
+
 	}
 	ownership_type = self
 
