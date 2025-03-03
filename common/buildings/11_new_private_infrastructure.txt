@@ -10,12 +10,11 @@ building_airport = {
 
 	production_method_groups = {
 		pmg_base_building_airport
-		pmg_ownership_capital_building_railway
 	}
 
 	required_construction = construction_cost_high
 	
-	ai_value = 100 # Airports are important
+	ai_value = 300 # Airports are important
 	
 	should_auto_expand = { 
 		OR = {
@@ -25,4 +24,5 @@ building_airport = {
 		state.market_access < 1
 		NOT = { is_under_construction = yes }
 	}
+	ownership_type = self
 }
