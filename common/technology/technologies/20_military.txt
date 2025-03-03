@@ -488,7 +488,7 @@ electric_telegraph = {
 	}
 	
 	ai_weight = {
-		value =
+		value = 1
 
 		if = {
 			limit = {
